@@ -53,4 +53,15 @@ p {
 .delverde {
     background-color: green;
     color: rgb(255, 255, 255);
+    border: solid;
+    padding: 12px 6px
 }
+
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+hr{
+    margin-top: ;
+}
+

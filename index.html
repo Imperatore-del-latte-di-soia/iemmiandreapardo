@@ -27,9 +27,9 @@
          <a href="index.html"> <h4>CONTATTI</h4></a>
         </navbar>
 
-        <div style="display: flex;">
+        <div style="display: grid; grid-template-columns: 2.5fr 1fr;">
             <article>
-                <h1 style="font-size: small;"> Test online-IMC</h1>
+                <h1 style="font-size: xx-large"> Test online-IMC</h1>
                 <h2>Calcola il tuo indice di massa corporea </h2>
                 <h3>L'IMC si calcola dividendo il peso in chilogrammi per il quadrato dell'altezza espresso in metri (kg/m2)</h3>
 
@@ -56,21 +56,53 @@
                         let altezza=document.getElementById("altezza")
                     }
                 </script>
+                     <!-- npx vite // onkeyup-->
+                <h2> Classificazione dei livelli di peso in base all'IMC</h2>
+                <table>
+                 <tr>
+                        <td> sottopeso</td>
+                        <td>&lt; 18.5</td>
+                    </tr>
+                    <tr>
+                        <td> normopeso</td>
+                        <td> 18.5 - 24.9</td>
+                    </tr>
+                    <tr>
+                        <td> sovrappeso</td>
+                        <td> 25 - 29.9</td>
+                    </tr>
+                    <tr>
+                        <td> obesità di I grado</td>
+                        <td> &ge; 30 - 34.9</td>
+                    </tr>
+                
+                </table>
             </article>
 
             
         <aside style="width: 37%">  
-           <div class="delverde"> Formazione </div>
+           <div class="delverde"  style="font-size: 140%;  "> Formazione </div>
+           <hr>
           <div style=" margin: 20px;">
        <img src=" https://www.aidap.org/wp-content/uploads/banner-piccolo-.png" alt="non si carica">
           </div>
 
-          <div class="delverde" style="font-size: xx-large;"> Opuscoli informativi </div>
+          <div class="delverde" style="font-size: 140%; "> Opuscoli informativi </div>
           <div style="margin:20px;">
+            <hr>
        <img src=" https://www.aidap.org/wp-content/uploads/info-pazienti-1.png" alt="non si carica">
           </div>
 
+           <div class="delverde" style="font-size: 140%; "> Download</div>
+           <hr>
+          <div style="margin:20px;">
+       <img src="https://www.aidap.org/wp-content/uploads/banner-infografiche.jpg" alt="non si carica">
+          </div>
 
+          <div class="delverde" style="font-size: 140%; "> I nostri centri</div>
+          <div style="margin:20px;">
+            <hr>
+       <img src="italia.png" alt="non si carica " style=size:200%>
         </aside>
 
 
