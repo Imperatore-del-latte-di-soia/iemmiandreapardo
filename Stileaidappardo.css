@@ -1,0 +1,62 @@
+#tutto{
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  flex-direction: column ;
+  color: black;
+  
+
+}
+body {
+  background-color: #cecece;
+  align-items: center;
+}
+navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+a{
+  text-decoration: none;
+}
+h4 {
+  padding: 30px;
+  color: rgb(255, 255, 255);
+  background-color: green;
+}
+.riquadriinserimento {
+  background-color: rgb(197, 196, 196);
+   margin: 10px;
+}
+article {
+    text-align: left; 
+}
+
+
+
+header {
+  align-items: center;
+}
+.immagini {
+  min-width: 250%;
+  padding:10px;
+}
+
+p {
+  margin-inline: 30px;
+}
+
+.delverde {
+  background-color: green;
+  color: rgb(255, 255, 255);
+  border: solid;
+  padding: 12px 6px
+}
+
+table, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+hr{
+  margin-top: 10px ;
+}
